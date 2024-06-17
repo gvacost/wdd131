@@ -1,0 +1,81 @@
+header h1 {
+    text-align: center;
+    background-color: #9c9797;
+}
+
+nav {
+    background-color: rgb(176, 176, 202);
+    
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li{
+    flex : 1 1 100%;
+
+}
+nav a {
+	display: block;
+	color: #4d4c4c;
+	text-align: center;
+	padding: 1rem;
+	text-decoration: none;
+}
+nav a:hover{
+    color: gold;
+} 
+img{
+    float: right;
+    width: 100px;
+    height: 100px;
+}
+main{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+section.card{
+    text-align: center;
+    padding: 20px;
+    border-radius: 25px;
+    border-color: #4d4c4c;
+    border-width: 2px;
+    border-style: solid;
+    margin: 20px;
+}
+p{
+    text-align: start;
+}
+
+section h2{
+    background-color: rgb(180, 180, 240);
+    border-radius: 20px;
+    margin: 5px;
+}
+section h3{
+    text-align: start;
+}
+
+section.card ul{
+    text-align: start;
+    margin-top: 60px;
+    align-self: center;   
+}
+
+section.card li{
+    padding: 15px;
+}
+
+footer {
+    background-color: rgb(180, 180, 240);
+    align-self: center;
+    text-align: center;
+}
+
+footer p{
+    text-align: center;
+}
