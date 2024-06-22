@@ -1,0 +1,50 @@
+header{
+    background-color: #8686d8;
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+}
+nav {
+    display: flex;
+    flex-direction: column;
+    
+}
+nav ul li{
+    display: block;
+    text-align: center;
+    list-style: none;
+}
+nav a{
+    color: rgb(58, 50, 50);
+
+}
+
+nav a:hover{
+    color: rgb(245, 198, 81);
+}
+#menu::before{
+    content: "≡";
+}
+main{
+    display: block;
+    text-align: center;
+}
+
+#menu.show::before {
+	content: "X";
+}
+.navigation li{
+    display: none;
+}
+.show li{
+    display: block;
+}
+footer {
+    background-color: rgb(180, 180, 240);
+    align-self: center;
+    text-align: center;
+}
+
+footer p{
+    text-align: center;
+}
