@@ -18,7 +18,7 @@ hambutton.addEventListener('click', () => {
 function updateTitle(event) {
     event.preventDefault();
     const title = event.target.textContent;
-    document.querySelector('#main-h1').textContent = title;
+    document.querySelector('#main-h2').textContent = title;
 }
 
 document.addEventListener('DOMContentLoaded', () => {
