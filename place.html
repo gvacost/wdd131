@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <title>Place Page</title>
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Olavarria, Argentina</h1>
+    </header>
+    <main>
+        <picture>
+            <source media="(min-width: 1000px)" srcset="images/olavarria-central.webp">
+            <img src="images/olavarria-mobile.webp" alt="Olavarria Picture" width="600" height="300">
+        </picture>
+        <section class="city-data">
+            <h2>Data</h2>
+            <ul>
+                <li>Area</li>
+                <li>Population</li>
+                <li>Languages</li>
+                <li>Time Zone</li>
+                <li>Calling Code</li>
+            </ul>
+        </section>
+        <section class="weather">
+            <!-- <h2>Weather</h2> -->
+            <!-- <ul>
+                <li>Temperature</li>
+                <li>Conditions</li>
+                <li>Wind</li>
+                <li>Wind Chill</li>
+            </ul> -->
+        </section>
+    </main>
+    <footer>
+        <p>© <span id="currentyear"></span> Gonzalo Acosta, Argentina</p>
+        <p id="lastmodified"></p>
+    </footer>
+</body>
+</html>
