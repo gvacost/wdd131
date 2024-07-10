@@ -59,7 +59,6 @@ h2{
     img{
         width: 1200px;
         height: auto;
-        flex-basis: center;
         margin-left: 60px;
     }
     footer{
