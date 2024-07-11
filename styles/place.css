@@ -21,6 +21,7 @@ h2{
 }
 
 
+
 @media screen and (min-width: 600px){
     header{
         background-color: rgb(87, 167, 247);
@@ -53,13 +54,23 @@ h2{
         bottom: 5px;
         right:95px;   
     }
+    
     picture{
         justify-content: center;
     }
-    img{
-        width: 1200px;
+    
+    #olvpic{
+        width: 1100px;
         height: auto;
         margin-left: 60px;
+    }
+    /* h2{
+        text-align: left;
+    } */
+    .weather h2::after{
+        content: url("images/1530374_weather_day_sand_sandstorm_sun_icon.svg");
+        display: none;
+        text-align: center;
     }
     footer{
         background-color: rgb(87, 167, 247);

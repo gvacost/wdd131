@@ -21,9 +21,9 @@ calculatedWindChill(temperature, windSpeed);
 
 function displayWeather(){
     let weatherList = document.querySelector('.weather');
-    let title = document.createElement('h2');
-    title.textContent = 'Weather';
-    weatherList.appendChild(title);
+    // let title = document.createElement('h2');
+    // title.textContent = 'Weather';
+    // weatherList.appendChild(title);
 
     let list = document.createElement('ul');
     let tempItem = document.createElement('li');
